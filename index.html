@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- cssの表記 -->
+    <link rel="stylesheet" href="index.css">
+    <!-- ファビコンの表記 -->
+    <link rel="icon" href="../static/favicon/rogo .ico">
+    <!-- ここからjsまたjqueryの表記 -->
+    <!-- drawer.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
+    <!-- jquery & iScroll -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+    <!-- drawer.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+    <script integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.min.js"></script>
+    <title>TOP</title>
+</head>
+<body>
+    <!-- ドロワー -->    
+    <div id="page_top"><a href="#"></a></div>
+    <div class="drawer drawer--right">
+        <header role="banner">
+          <button type="button" class="drawer-toggle drawer-hamburger">
+            <span class="sr-only">toggle navigation</span>
+            <span class="drawer-hamburger-icon"></span>
+          </button>
+          <nav class="drawer-nav" id="kiiro" role="navigation">
+            <ul class="drawer-menu">
+              <li class="mannaka"><a class="drawer-brand" href="#">ザックリジーズ</a></li>
+              <li class="mannaka"><a class="drawer-menu-item" href="#">TOP</a></li>
+              <li class="mannaka"><a class="drawer-menu-item" href="#">SDGsって何？</a></li>
+              <li class="mannaka"><a class="drawer-menu-item" href="#">SDGsの17の目標</a></li>
+              <li class="mannaka"><a class="drawer-menu-item" href="#">やってみよう<br>~私たちでにできること~</a></li>
+              <li class="mannaka"><a id="ao" class="drawer-menu-item" href="#">SDGsクイズ</a></li>
+              <li class="mannaka"><a id="aka" class="drawer-menu-item" href="#">アンケート</a></li>
+            </ul>
+          </nav>
+        </header>
+        <main role="main">
+          <!-- Page content -->
+        </main>
+    </div>
+    <div class="wrapper">
+            <!-- トップ画面 -->
+        <img  src="TOP.png" alt="画像"><br>
+            <!-- SDGsの説明 -->
+        <h1 class="yo">ようこそ、ザックリジーズへ</h1><br>
+        <div class="sd"><img  src="sdgs01.png" alt="画像"><br></div>
+        <p>本サイトでは、国連が２０３０年までに達成をめざす「持続可能な開発目標（SDGｓ）」
+            に賛同し、SDGｓの17の目標についてまとめています。また、記事を通じて私たちに
+            できることを紹介し、皆さんとともにSDGｓについて様々な角度から考え、SDGｓが
+            掲げる「誰一人取り残さない」世界の実現を目指します。
+        </p>
+        <p>
+          最近、新聞やテレビの中でよく聞くようになった「SDGs（エスディージーズ）」という言葉。
+          学校の授業や仕事を通じて「SDGs」を知った、という人も多いのではないでしょうか。
+          日本でもほぼ2人に1人が「聞いたことがある」と答えるなど、その認知度は確実に上がってます。
+          本サイトではあらためてSDGsとはなにか、SDGsが掲げている一つ一つの目標を分かりやすく
+          解説していきます。そして、私たちがSDGsの目標達成のためにできることもご紹介していきます。
+          また、簡単に遊べるクイズをご用意しておりますので是非遊んでみてください。
+        </p><br>
+
+            <!-- それぞれのページ -->
+        <div class="aokusuru">
+            <!-- SDGsのロゴ -->
+            <div class="shiro"><img class="sdgs" src="aaa.png" alt="画像"><br></div>
+            <h2 class="moji">ザックリジーズ</h2>
+            <div>
+              <img src="seni.png" usemap="#ImageMap" alt="" />
+              <map name="ImageMap">
+                <area shape="poly" coords="499,400,500,417,500,424,499,433,499,442,499,456,499,466,531,467,566,467,601,467,643,467,694,467,752,467,799,466,830,466,835,462,841,455,842,451,845,447,846,444,847,435,846,426,846,415,847,403,846,400,824,400,768,400,715,400,645,400,593,399,543,400,511,400,499,400,499,400" href="#" alt="" />
+                <area shape="poly" coords="501,955,500,970,501,988,501,999,500,1014,501,1023,552,1024,580,1025,609,1025,640,1025,683,1025,731,1025,785,1025,829,1025,838,1025,843,1020,845,1016,847,1013,850,1008,854,1000,854,979,854,957,821,955,784,956,733,955,687,956,647,956,612,956,573,955,542,956,516,955,501,955,501,955" href="#" alt="" />
+                <area shape="poly" coords="520,1500,520,1519,520,1541,520,1560,520,1567,572,1566,629,1566,717,1567,786,1567,840,1567,846,1563,850,1557,854,1551,858,1543,858,1524,857,1500,817,1499,765,1499,731,1499,673,1498,626,1499,575,1499,537,1499,521,1499,521,1499" href="#" alt="" />
+                <area shape="poly" coords="526,2035,526,2041,525,2068,525,2092,525,2102,646,2104,758,2103,852,2103,858,2098,860,2096,863,2093,866,2087,870,2079,871,2079,870,2036,802,2035,732,2035,664,2036,601,2035,560,2035,526,2035,526,2035" href="#" alt="" />
+              </map>            </div>
+        </div>
+        <div>
+          <!-- フッターの表記 -->
+          <footer id="footer" class="ki">
+            <h3 class="fo">ザックリジーズ</h3>
+              <ul class="list_triangle">
+                <li id="yokonarabi"class="ooki"><a href="">TOPへ</a></li>
+                <li id="yokonarabi" class="ooki"><a id="ao" href="">SDGsクイズ</a></li>
+                <li id="yokonarabi"class="ooki"><a id="aka" href="">アンケート</a></li>
+                <li class="ooki"><a href="">SDGsって何？</a></li>
+                <li class="ooki"><a href="">SDGsの17の目標</a></li>
+                <li class="ooki"><a href="">やってみよう～私たちでにできること～</a></li>
+
+            </ul>
+          </footer>
+        </div>
+    <!-- スクリプトの表記 -->
+    <script src="index.js"></script>
+    <script src="foot.js"></script>
+    <script src="kurikku.js"></script>
+</body>
+</html>
